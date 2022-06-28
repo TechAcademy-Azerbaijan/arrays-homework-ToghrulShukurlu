@@ -4,7 +4,7 @@ prompt.start();
 
 prompt.get('input', function (err, result) {
       
-let count = 0
+let count
 while (arr.length > 0) {
     count++
     let x = arr[0]
